@@ -2,7 +2,7 @@
 <h1 align="center">Hi 👋, I'm xpert0</h1>
 <h3 align="center">A passionate Coding Enthusiastic from India</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=somnathsengupta&label=Profile%20views&color=0e75b6&style=flat" alt="somnathsengupta" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=xpert0&label=Profile%20views&color=0e75b6&style=flat" alt="xpert0" /> </p>
 
 - 🌱 I’m currently learning **Python and C++**
 
