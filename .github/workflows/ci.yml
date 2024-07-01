@@ -49,3 +49,8 @@ jobs:
           
           Changes 👇👇👇
           https://github.com/${{ github.repository }}/commit/${{github.sha}}
+  bash-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Bash script
+        run: echo "Current directory: $(pwd)"
