@@ -15,9 +15,10 @@ jobs:
         echo "TEST=$(ls)" >> "$GITHUB_ENV"
         echo "TEST1=g" >> "$GITHUB_OUTPUT"
         cat $GITHUB_ENV
+     
+    - uses: appleboy/telegram-action@master
       env:
           TEST1: ${{ steps.value.outputs.TEST1 }}
-    - uses: appleboy/telegram-action@master
       with:
         to: ${{ secrets.CI }}
         token: ${{ secrets.TOKEN }}
@@ -30,6 +31,7 @@ jobs:
           Changes 👇👇👇
           https://github.com/${{ github.repository }}/commit/${{github.sha}}
 
+          "$TEST1"
           "${{ env.TEST1 }}"
           "${{ env.TEST }}"
   notifyTeam:
