@@ -60,7 +60,7 @@ jobs:
           interpreter: # optional, default is bash
           packages: # optional, default is bash
           flakes: # optional, default is 
-          flakes-from-devshell: # optional
+          flakes-from-devshell: false
           # The actual script to execute in the shell
           script: pwd
           # Execute the script inside the specified working directory instead of the repository root. Example: path/to/dir
