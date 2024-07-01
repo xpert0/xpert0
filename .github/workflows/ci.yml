@@ -12,13 +12,10 @@ jobs:
     - name: Set the value
       id: value
       run: |
-        echo "TEST=$(ls)" >> "$GITHUB_ENV"
-        echo "TEST1=g" >> "$GITHUB_OUTPUT"
-        cat $GITHUB_ENV
-     
+        echo "TEST=$(ls)" >> "$GITHUB_OUTPUT"
     - uses: appleboy/telegram-action@master
       env:
-          TEST1: ${{ steps.value.outputs.TEST1 }}
+          TEST: ${{ steps.value.outputs.TEST }}
       with:
         to: ${{ secrets.CI }}
         token: ${{ secrets.TOKEN }}
@@ -31,8 +28,6 @@ jobs:
           Changes 👇👇👇
           https://github.com/${{ github.repository }}/commit/${{github.sha}}
 
-          "$TEST1"
-          "${{ env.TEST1 }}"
           "${{ env.TEST }}"
   notifyTeam:
     runs-on: ubuntu-latest
