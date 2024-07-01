@@ -6,7 +6,7 @@ on:
     branches: ["main"]
   workflow_dispatch:
 # Export NEW_VAR_NAME variable for subsequent steps, and export all environment variables matching the optional regexp.
-  jobs:
+jobs:
     bash-script:
     runs-on: ubuntu-latest
     steps:
