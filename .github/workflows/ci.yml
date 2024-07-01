@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: Set the value
       run: |
-        echo "test=$(ls)" >> ${GITHUB_ENV}
+        echo "test=$(ls)" > ${GITHUB_ENV}
         cat $GITHUB_ENV
     - uses: appleboy/telegram-action@master
       with:
