@@ -6,14 +6,6 @@ on:
     branches: [ main ]
   workflow_dispatch:
 jobs:
-  bash-script:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Set the value
-      id: step_one
-      run: |
-        echo "test=$(ls)" >> $GITHUB_ENV
-        ls > test.txt
   broadcastCI:
     runs-on: ubuntu-latest
     steps:
@@ -21,7 +13,6 @@ jobs:
       id: step_one
       run: |
         echo "test=$(ls)" >> $GITHUB_ENV
-        ls > test.txt
     - uses: appleboy/telegram-action@master
       with:
         to: ${{ secrets.CI }}
@@ -35,7 +26,7 @@ jobs:
           Changes 👇👇👇
           https://github.com/${{ github.repository }}/commit/${{github.sha}}
 
-          "${{ env.test }}"
+          "$test"
   notifyTeam:
     runs-on: ubuntu-latest
     steps:
