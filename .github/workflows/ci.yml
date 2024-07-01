@@ -62,7 +62,7 @@ jobs:
           flakes: # optional, default is 
           flakes-from-devshell: # optional
           # The actual script to execute in the shell
-          script: echo "Current directory: $(pwd)"
+          script: pwd
           # Execute the script inside the specified working directory instead of the repository root. Example: path/to/dir
           working-directory: # optional
           
