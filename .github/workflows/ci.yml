@@ -26,7 +26,7 @@ jobs:
           Changes 👇👇👇
           https://github.com/${{ github.repository }}/commit/${{github.sha}}
 
-          "$test"
+          "${{ env.test }}"
   notifyTeam:
     runs-on: ubuntu-latest
     steps:
