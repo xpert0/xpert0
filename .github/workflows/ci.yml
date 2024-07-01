@@ -13,7 +13,7 @@ jobs:
       run: |
         TEST=$(ls)
         echo "TEST=$(ls)" > ${GITHUB_ENV}
-        echo TEST
+        echo $TEST
         cat $GITHUB_ENV
     - uses: appleboy/telegram-action@master
       with:
