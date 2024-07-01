@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Set the value
-      id: step_one
       run: |
         echo "test=$(ls)" >> $GITHUB_ENV
+        cat $GITHUB_ENV
     - uses: appleboy/telegram-action@master
       with:
         to: ${{ secrets.CI }}
