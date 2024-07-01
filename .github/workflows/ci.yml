@@ -11,7 +11,9 @@ jobs:
     steps:
     - name: Set the value
       run: |
-        echo "test=$(ls)" > ${GITHUB_ENV}
+        TEST=$(ls)
+        echo "TEST=$(ls)" > ${GITHUB_ENV}
+        echo TEST
         cat $GITHUB_ENV
     - uses: appleboy/telegram-action@master
       with:
@@ -26,7 +28,8 @@ jobs:
           Changes 👇👇👇
           https://github.com/${{ github.repository }}/commit/${{github.sha}}
 
-          "${{ env.test }}"
+          "$TEST"
+          "${{ env.TEST }}"
   notifyTeam:
     runs-on: ubuntu-latest
     steps:
