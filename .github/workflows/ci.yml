@@ -12,7 +12,7 @@ jobs:
     - name: Set the value
       id: step_one
       run: |
-        echo ::set-env name=test::$(pwd && ls)')
+        echo ::set-env name=test::$(pwd && ls)
   broadcastCI:
     runs-on: ubuntu-latest
     steps:
