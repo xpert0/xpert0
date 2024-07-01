@@ -12,7 +12,7 @@ jobs:
     - name: Set the value
       id: step_one
       run: |
-        echo "test=$(git status)" >> $GITHUB_ENV
+        echo "test=$(pwd && ls)" >> $GITHUB_ENV
   broadcastCI:
     runs-on: ubuntu-latest
     steps:
