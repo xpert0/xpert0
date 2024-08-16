@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=xpert0&label=Profile%20views&color=0e75b6&style=flat" alt="xpert0" /> </p>
 
-- 🌱 I’m currently learning **Python and C++**
+- 🌱 I’m currently learning **JavaScript and C++**
 
 - 📫 How to reach me **xpert0.v1spy@aleeas.com**
 
