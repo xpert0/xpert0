@@ -7,9 +7,6 @@
 
 - 📫 How to reach me **xpert0.v1spy@aleeas.com**
 
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=xpert0&label=Profile%20views&color=0e75b6&style=flat" alt="kibria5" /> </p
-
 <p align="left">
 </p>
 
