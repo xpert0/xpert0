@@ -1,5 +1,5 @@
 # 💫 About Me:
-🌱 I’m currently learning JavaScript and Python<br>📫 How to reach me xpert0.v1spy@aleeas.com
+🌱 I’m currently learning JavaScript and Python<br>📫 How to reach me 0@dev.xpert0.in
 
 
 ## 🌐 Socials:
