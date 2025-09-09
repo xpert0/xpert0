@@ -4,7 +4,7 @@
 
 ![Xpert0 Industries Logo](logo.svg)
 
-**🚀 Building the Future of Technology | 💡 Innovation Leader | 🌟 Entrepreneur**
+**🚀 Building the Future of Technology | 💡 Innovation Leader**
 
 [![Website](https://img.shields.io/badge/🌐_Website-xpert0.in-blue?style=for-the-badge)](https://xpert0.in)
 [![Organization](https://img.shields.io/badge/🏢_Organization-Xpert0_Industries-green?style=for-the-badge)](https://github.com/Xpert0-Industries)
@@ -37,7 +37,7 @@
 - Technology Research
 - Product Development
 
-**Contact**: [0@dev.xpert0.in](mailto:0@dev.xpert0.in) for internship applications
+**Contact**: [careers@xpert0.in](mailto:careers@xpert0.in) for internship applications
 
 ---
 
