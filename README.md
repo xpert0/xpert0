@@ -39,8 +39,6 @@
 
 ## 📊 GitHub Analytics & Performance
 
-[![](https://komarev.com/ghpvc/?username=voidctx&icon=0)](https://visitcount.itsvg.in)
-
 <div align="center">
 
 ![Streak](https://streak-stats.demolab.com/?user=voidctx&theme=github_dark&hide_border=false)<br/>
